@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <style>
+  .bordered
+  {
+    border:2px solid black;
+  }
+  table
+  {
+    border-collapse:collapse;
+    border: none;
+  }
+  td
+  {
+    height:40px;
+  }
+  #red
+  {
+    background-color: red;
+  }
+  #green
+  {
+    background-color: green;
+  }
+  </style>
+
+  <body>
+    <div>
+    <div id="cyan",>a</div>
+    <div id="cyan",>b</div>
+    <p id="cyan",>x</p> <p id="cyan",>y</p>
+    </div>
+    <div class="a">
+    <p class="b c">one <br/> two</p>
+    three <br/> four
+    </div>
+  </body>
+</html>

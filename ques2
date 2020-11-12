@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  .bordered
+  {
+    border:2px solid black;
+  }
+  table
+  {
+    border-collapse:collapse;
+    border: none;
+  }
+  td
+  {
+    height:40px;
+  }
+  #red
+  {
+    background-color: red;
+  }
+  #green
+  {
+    background-color: green;
+  }
+
+  }
+
+  </style>
+
+  <h><b>My Favorite Places</b></h>
+
+  <table style="width:100%">
+      <tr1>
+    <td class="bordered", style="height:80x;width:80px" >Place1<br>like it</td>
+    <td class="bordered", style="height:80x;width:80px">Place2<br>love it</td>
+    </tr1>
+
+    <tr2>
+    <td id="red", style="height:80x;width:80px">Place3<br>love it</td>
+    </tr2>
+
+    <tr1>
+    <td class="bordered", style="height:80x;width:80px">Place3<br>love it</td>
+    <td class="bordered", style="height:80x;width:80px">Place3<br>love it</td>
+    </tr1>
+
+
+    <tr3 >
+    <td id="green", style="height:80x;width:80px">Place3<br>so-so</td>
+    <td id="green">Place3<br>awesome</td>
+      </tr3>
+
+</html>
